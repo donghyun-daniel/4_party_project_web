@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<link href="{% static 'dist/css/styles2.css' %}" rel="stylesheet" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file Upload</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo"> 😈 Hotel Review Analysis Service</div>
+    </header>
+    <main class="layout">
+        <nav class="main__header">
+            <div class="project_title">
+                <!-- nav메인 -->
+                <image class="title_logo" src="{% static 'dist/images/team_image2.png' %}" width="70" height="70">
+                </image>
+                <h1 class="title_title">
+                    HOTEL REVIEW SERVIECE
+                </h1>
+            </div>
+
+        </nav>
+    </main>
+    <main class="contents">
+        <div class="dashed__border">
+            <div class="main__uploadfile">
+                <div class="main__mention_0">
+                    <p>리뷰를 세세하게 분석해 드려요</h2>
+                </div>
+
+            </div>
+            <div class="main__mention">
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input type="file" name="file" id="id_file" class="inputfile__" required multiple />
+                        <label for="id_file"> Upload File </label>
+                    <button class ="2p" type="submit" style="background-color: rgba(126, 41, 133, 0.9)">📤</button>
+                </form>
+            </div>
+                <!-- <p class = "main__metion_p"> Upload File</p>
+            </div>
+            <div class="main__container">
+                <div class=select__file>
+                    <form method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input type="file" name="file" id="id_file" class="inputfile__" required multiple />
+                        <label for="id_file"> Upload File </label>
+                        <button type="submit">Submit 📤</button>
+                    </form>
+                </div>
+                <div> -->
+                </div>
+            </div>
+    </main>
+</body>
+
+</html>

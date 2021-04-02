@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2021-03-17T12:17:40.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="OmtXwPiwUweixE7-CeQk" version="14.4.8" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="462" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="rVxUsC0fX_4hH8v_jSyq-2" value="Word2Vec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rVxUsC0fX_4hH8v_jSyq-0" target="rVxUsC0fX_4hH8v_jSyq-1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVxUsC0fX_4hH8v_jSyq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rVxUsC0fX_4hH8v_jSyq-0" target="rVxUsC0fX_4hH8v_jSyq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Review data splited by sentence" link="https://www.notion.so/Word2vec-Mecab-Mecab-NNG-XR-NNR-5a95293ab812449fa7513dac65dcbffd" id="rVxUsC0fX_4hH8v_jSyq-0">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="120" y="50" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rVxUsC0fX_4hH8v_jSyq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rVxUsC0fX_4hH8v_jSyq-1" target="rVxUsC0fX_4hH8v_jSyq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVxUsC0fX_4hH8v_jSyq-6" value="Mapping" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rVxUsC0fX_4hH8v_jSyq-5">
+          <mxGeometry x="0.3167" y="1" relative="1" as="geometry">
+            <mxPoint x="-24" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Word Embedding Vector" link="https://www.notion.so/Word2vec-Mecab-Mecab-NNG-XR-NNR-5a95293ab812449fa7513dac65dcbffd" id="rVxUsC0fX_4hH8v_jSyq-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="300" y="50" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rVxUsC0fX_4hH8v_jSyq-8" value="K-means" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rVxUsC0fX_4hH8v_jSyq-3" target="rVxUsC0fX_4hH8v_jSyq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Sentence Vector" link="https://www.notion.so/Word2vec-Mecab-Mecab-NNG-XR-NNR-5a95293ab812449fa7513dac65dcbffd" id="rVxUsC0fX_4hH8v_jSyq-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="210" y="160" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rVxUsC0fX_4hH8v_jSyq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rVxUsC0fX_4hH8v_jSyq-7" target="rVxUsC0fX_4hH8v_jSyq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Clustered Sentences" link="https://www.notion.so/Word2vec-Mecab-Mecab-NNG-XR-NNR-5a95293ab812449fa7513dac65dcbffd" id="rVxUsC0fX_4hH8v_jSyq-7">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="210" y="260" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rVxUsC0fX_4hH8v_jSyq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rVxUsC0fX_4hH8v_jSyq-9" target="rVxUsC0fX_4hH8v_jSyq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Sentence Keyword Extraction" link="https://www.notion.so/Word2vec-Mecab-Mecab-NNG-XR-NNR-5a95293ab812449fa7513dac65dcbffd" id="rVxUsC0fX_4hH8v_jSyq-9">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="380" y="260" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rVxUsC0fX_4hH8v_jSyq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rVxUsC0fX_4hH8v_jSyq-10" target="rVxUsC0fX_4hH8v_jSyq-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Word counting in each cluster" link="https://www.notion.so/Word2vec-Mecab-Mecab-NNG-XR-NNR-5a95293ab812449fa7513dac65dcbffd" id="rVxUsC0fX_4hH8v_jSyq-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="380" y="350" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Categories" link="https://www.notion.so/Word2vec-Mecab-Mecab-NNG-XR-NNR-5a95293ab812449fa7513dac65dcbffd" id="rVxUsC0fX_4hH8v_jSyq-11">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="210" y="350" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
